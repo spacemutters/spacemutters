@@ -1,5 +1,7 @@
 # Davis Neiman
 
+**[davisneiman.vercel.app](https://davisneiman.vercel.app)**
+
 Full-stack engineer in Lakeland, Florida. Open to fully remote work.
 
 I design, build, and operate production software end to end — schema design through
@@ -14,6 +16,15 @@ TypeScript across 24 product areas, running in production.
 ---
 
 ## Public work
+
+### [Lattice](https://github.com/spacemutters/lattice) · [live](https://lattice-sheets-kohl.vercel.app)
+A spreadsheet formula engine — Pratt parser, dependency graph, incremental
+recalculation — and a spreadsheet built on it. Editing one cell in a 40,000-cell
+sheet recomputes 39 cells rather than 40,000, which is 95× faster than a full
+rebuild. Select any cell and the sheet draws its dependency graph: blue for what
+it reads, orange for what reads it.
+
+`TypeScript` · `102 tests` · `no dependencies`
 
 ### [unreal-mcp](https://github.com/spacemutters/unreal-mcp)
 Lets Claude drive a running Unreal Editor — inspect and edit levels, import assets, run
@@ -30,13 +41,6 @@ Every step supports a `-WhatIf` dry run, writes a CSV audit record, and fails
 independently so one error doesn't halt the rest of the run.
 
 `PowerShell` · `Active Directory` · `Microsoft 365`
-
-### [DexDeal](https://github.com/spacemutters/dexdeal) · [live](https://dexdeal.vercel.app)
-Scores about 4,000 Pokémon cards from 1 to 100 on how good a deal they are, using the gap
-between the cheapest copy listed and what the card actually sells for. 67 tests, most of
-them on the scoring rules.
-
-`Next.js` · `TypeScript` · `Vitest`
 
 ### [cfur-site](https://github.com/spacemutters/cfur-site) · [live](https://cfur-site.vercel.app)
 Marketing site for a Lakeland uniform rental company. Astro and Tailwind, self-hosted
